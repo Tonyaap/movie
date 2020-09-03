@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
-import AboutPage from "./pages/AboutPage";
-import DiscoverMoviesPage from "./pages/DiscoverMoviesPage";
-import Homepage from "./pages/HomePage";
+import { Switch } from "react-router-dom";
+// import AboutPage from "./pages/AboutPage";
+// import DiscoverMoviesPage from "./pages/DiscoverMoviesPage";
+// import Homepage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
 
 function App() {
