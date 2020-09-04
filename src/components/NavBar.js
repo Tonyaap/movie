@@ -6,7 +6,7 @@ export default function navbar() {
     <div className="nav">
       <NavLink
         to="/"
-        exact="true"
+        exact={true}
         activeStyle={{ fontWeight: "bold", color: "red" }}
       >
         {" "}
@@ -18,6 +18,12 @@ export default function navbar() {
       </NavLink>
       <NavLink to="/users" activeStyle={{ fontWeight: "bold", color: "red" }}>
         Users
+      </NavLink>
+      <NavLink
+        to="/discover"
+        activeStyle={{ fontWeight: "bold", color: "red" }}
+      >
+        Discover
       </NavLink>
     </div>
   );
